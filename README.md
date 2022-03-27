@@ -1,7 +1,9 @@
 # Ktech Site
 Well functioning website build with django python's framework. it content blog and user interaction functionality.
 
-<img src="./images/website_with_django.png" width="1000" alt="photo cover" />
+---
+
+<img src="./images/website_with_django.png" width="700" alt="photo cover" />
 
 ## Contents
 
