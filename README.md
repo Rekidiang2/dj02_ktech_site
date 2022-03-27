@@ -12,34 +12,29 @@ Well functioning website build with django python's framework. it content blog a
 
 ## 1. Project Structure
 
-#### Data
-* ├── diabetes.csv
-* ├── cleaned_data.csv
-* ├── scaled_data.csv
-* ├── data_documentation.pdf
-#### analysis_and_training
-* ├── py_files
-* ├── 1_data_preprocessing
-* ├── 2_ML_model
-* ├── 3_DL_model
-* ├── helpers.py
-#### figures
-* ├── contains graph and figures
-#### models
-* ├── contains trained models
-#### images
-* ├── contains images used in this images
+#### ktech_site
+* ├── ....
+* ├── ...
 
-##### environment
-##### requirements.txt
-##### gitignore
-##### report (pdf & ppt)
+#### blog
+* ├── ....
+* ├── ....
+
+#### media
+* ├── images
+    * ├── images asset
+├── .gitignore
+├── db.sqlite3
+├── manage.py
+├── README.md
+├── requirements.txt
+
+> **N.B :** db.sqlite3 file and media forder are automaticallygenerated once the server is run and was ignore in this repository for security.
 
 ## 2. Technologies and libraries
 
 * django 4.0.3
-* --
-
+* pillow
 ## 3. How to run
 
 **N.B : python 3.8 is recommended**
@@ -95,7 +90,7 @@ Well functioning website build with django python's framework. it content blog a
 ## 4. About Me
 ___
 
-### I'm a data scientist, software Engineer. data and technology passionate person, Artificial Intelligence enthusiast 
+### I'm Data Science Analyst, data and technology passionate person, Artificial Intelligence enthusiast, lifelong learner.
 
 > My Website [Click Here](https://kiese.tech)
 
