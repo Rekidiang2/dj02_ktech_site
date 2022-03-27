@@ -23,11 +23,11 @@ Well functioning website build with django python's framework. it content blog a
 #### media
 * ├── images
     * ├── images asset
-├── .gitignore
-├── db.sqlite3
-├── manage.py
-├── README.md
-├── requirements.txt
+###### ├── .gitignore
+###### ├── db.sqlite3
+###### ├── manage.py
+###### ├── README.md
+###### ├── requirements.txt
 
 > **N.B :** db.sqlite3 file and media forder are automaticallygenerated once the server is run and was ignore in this repository for security.
 
