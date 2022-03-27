@@ -1,0 +1,29 @@
+{% extends "blog/base.html" %}
+{% block title %}My Blog{% endblock %}
+{% block content %}
+  <h1>My Blog</h1>
+  {% for post in posts %}
+    <h2>
+      <a href="{{ post.get_absolute_url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+    <br />
+    {%if post.image %}
+    <img class="img-fluid" src="{{ post.image.url }}"  width=150 />
+    {% endif%}
+    <br />
+    <p class="date">
+      Published {{ post.publish }} by {{ post.author }}
+    </p>
+  
+    {{ post.body|truncatewords:30|linebreaks }}
+  {% endfor %}
+  
+  <!-- For function view-->
+  <!-- {% include "pagination.html" with page=posts %}-->
+
+  <!-- For class view-->
+  {% include "pagination.html" with page=page_obj %}
+
+{% endblock %}
